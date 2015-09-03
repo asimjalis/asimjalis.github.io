@@ -1,0 +1,34 @@
+---
+layout: post
+title: "test"
+date: 2015-09-03 16:19:25 -0700
+comments: true
+categories: test
+---
+
+What about fencing?
+
+```python
+printf("hello world\n");
+printf("hello world\n");
+printf("hello world\n");
+```
+
+```clojure
+(println "hello world")
+```
+
+This is a test. 
+
+Lets see what this looks like.
+
+Here is some code.
+
+    printf("hello world\n");
+    printf("hello world\n");
+    printf("hello world\n");
+    printf("hello world\n");
+
+Now back to text.
+
+Can we change this?
