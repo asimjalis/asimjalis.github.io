@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Test | Asim Jalis]]></title>
   <link href="http://asimjalis.github.io/blog/categories/test/atom.xml" rel="self"/>
   <link href="http://asimjalis.github.io/"/>
-  <updated>2015-09-03T16:37:09-07:00</updated>
+  <updated>2015-09-03T16:38:32-07:00</updated>
   <id>http://asimjalis.github.io/</id>
   <author>
     <name><![CDATA[Asim Jalis]]></name>
@@ -18,7 +18,7 @@
     <link href="http://asimjalis.github.io/blog/2015/09/03/test/"/>
     <updated>2015-09-03T16:19:25-07:00</updated>
     <id>http://asimjalis.github.io/blog/2015/09/03/test</id>
-    <content type="html"><![CDATA[<p>What about fencing?</p>
+    <content type="html"><![CDATA[<p>This is a test.</p>
 
 <pre><code class="python">printf("hello world\n");
 printf("hello world\n");
@@ -29,20 +29,6 @@ printf("hello world\n");
 </code></pre>
 
 <p>This is a test.</p>
-
-<p>Lets see what this looks like.</p>
-
-<p>Here is some code.</p>
-
-<pre><code>printf("hello world\n");
-printf("hello world\n");
-printf("hello world\n");
-printf("hello world\n");
-</code></pre>
-
-<p>Now back to text.</p>
-
-<p>Can we change this?</p>
 ]]></content>
   </entry>
   
