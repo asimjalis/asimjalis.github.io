@@ -6,7 +6,7 @@ comments: true
 categories: test
 ---
 
-What about fencing?
+This is a test.
 
 ```python
 printf("hello world\n");
@@ -19,16 +19,3 @@ printf("hello world\n");
 ```
 
 This is a test. 
-
-Lets see what this looks like.
-
-Here is some code.
-
-    printf("hello world\n");
-    printf("hello world\n");
-    printf("hello world\n");
-    printf("hello world\n");
-
-Now back to text.
-
-Can we change this?
