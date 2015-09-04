@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Test | Asim Jalis]]></title>
+  <link href="http://asimjalis.github.io/blog/categories/test/atom.xml" rel="self"/>
+  <link href="http://asimjalis.github.io/"/>
+  <updated>2015-09-03T18:06:52-07:00</updated>
+  <id>http://asimjalis.github.io/</id>
+  <author>
+    <name><![CDATA[Asim Jalis]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Test]]></title>
+    <link href="http://asimjalis.github.io/blog/2015/09/03/test/"/>
+    <updated>2015-09-03T16:19:25-07:00</updated>
+    <id>http://asimjalis.github.io/blog/2015/09/03/test</id>
+    <content type="html"><![CDATA[<p>This is a test.</p>
+
+<pre><code class="python">printf("hello world\n");
+printf("hello world\n");
+printf("hello world\n");
+</code></pre>
+
+<pre><code class="clojure">(println "hello world")
+</code></pre>
+
+<p>This is a test.</p>
+]]></content>
+  </entry>
+  
+</feed>
