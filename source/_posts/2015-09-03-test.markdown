@@ -16,6 +16,7 @@ printf("hello world\n");
 
 ```clojure
 (println "hello world")
+(println "hello world")
 ```
 
 This is a test. 
