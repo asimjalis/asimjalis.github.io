@@ -7,13 +7,13 @@
 
 # Site settings
 title: Asim Jalis
-email: your-email@domain.com
+email: asimjalis@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  I will teach you Data Science
+  I Will Teach You Data Science
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "https://asimjalis.github.io" # the base hostname & protocol for your site
+twitter_username: asimjalis
+github_username:  asimjalis
 
 # Build settings
 markdown: kramdown
