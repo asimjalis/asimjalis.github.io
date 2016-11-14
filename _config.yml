@@ -9,15 +9,14 @@
 title: Asim Jalis
 email: asimjalis@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  I Will Teach You Data Science
+  Cloud Computing
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://asimjalis.github.io" # the base hostname & protocol for your site
 twitter_username: asimjalis
 github_username:  asimjalis
 published: true
 # destination: ./_site/blog
-permalink: /blog/:title.html
-  
+permalink: /blog/:year/:month/:day/:title.html
 
 # Build settings
 markdown: kramdown
