@@ -15,6 +15,7 @@ url: "https://asimjalis.github.io" # the base hostname & protocol for your site
 twitter_username: asimjalis
 github_username:  asimjalis
 published: true
+future: true
 # destination: ./_site/blog
 permalink: /blog/:year/:month/:day/:title.html
 
