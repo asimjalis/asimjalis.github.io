@@ -8,4 +8,4 @@ permalink: /about/
 
 Senior Technical Trainer at Amazon Web Services.
 
-Interests: AWS, Cloud Computing, Big Data, Data Science.
+Interests: Cloud Computing, Big Data, Data Science.
