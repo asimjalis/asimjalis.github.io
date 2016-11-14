@@ -4,4 +4,6 @@ title: About
 permalink: /about/
 ---
 
-My personal notes.
+Senior Technical Trainer at Amazon Web Services.
+
+Interests: Cloud Computing, Big Data, Data Science.
