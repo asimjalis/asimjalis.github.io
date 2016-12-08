@@ -21,7 +21,7 @@ These steps will show you how to do this.
 
 First we are going to install `boot-clj`. Boot is similar to Lein with
 the difference that it lets you define your builds in Clojure
-dynamically. 
+dynamically.
 
 Install `boot-clj`.
 
