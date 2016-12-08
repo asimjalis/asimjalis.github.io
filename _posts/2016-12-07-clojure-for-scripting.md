@@ -55,13 +55,8 @@ Paste this into your REPL.
 
 ```clojure
 ; Define deps to pull in dependencies dynamically
-(set-env! :dependencies '[ [com.cemerick/pomegranate "0.3.1"] ])
-(use '[cemerick.pomegranate :only (add-dependencies)])
 (defn deps [the-deps]
-  (add-dependencies 
-    :coordinates  the-deps 
-    :repositories (merge cemerick.pomegranate.aether/maven-central
-                         {"clojars" "http://clojars.org/repo"})))
+  (merge-env! :dependencies the-deps))
 ```
 
 ## Testing With CPrint
@@ -99,7 +94,7 @@ history.
 To view the REPL history look at `.nrepl-history` in the directory
 where you started `boot repl`.
 
-    cat `.nrepl-history`
+    cat .nrepl-history
 
 ## Loading Scripts
 
