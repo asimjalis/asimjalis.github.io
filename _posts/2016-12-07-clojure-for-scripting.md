@@ -55,8 +55,8 @@ Paste this into your REPL.
 
 ```clojure
 ; Define deps to pull in dependencies dynamically
-(defn deps [the-deps]
-  (merge-env! :dependencies the-deps))
+(defn deps [new-deps]
+  (merge-env! :dependencies new-deps))
 ```
 
 ## Testing With CPrint
