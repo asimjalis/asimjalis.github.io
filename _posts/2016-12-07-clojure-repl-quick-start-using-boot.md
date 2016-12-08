@@ -51,14 +51,16 @@ clojars.
 
 Paste this into your REPL.
 
-    ; Define deps to pull in dependencies dynamically
-    (set-env! :dependencies '[ [com.cemerick/pomegranate "0.3.1"] ])
-    (use '[cemerick.pomegranate :only (add-dependencies)])
-    (defn deps [the-deps]
-      (add-dependencies 
-        :coordinates  the-deps 
-        :repositories (merge cemerick.pomegranate.aether/maven-central
-                             {"clojars" "http://clojars.org/repo"})))
+```clojure
+; Define deps to pull in dependencies dynamically
+(set-env! :dependencies '[ [com.cemerick/pomegranate "0.3.1"] ])
+(use '[cemerick.pomegranate :only (add-dependencies)])
+(defn deps [the-deps]
+  (add-dependencies 
+    :coordinates  the-deps 
+    :repositories (merge cemerick.pomegranate.aether/maven-central
+                         {"clojars" "http://clojars.org/repo"})))
+```
 
 ## Testing With CPrint
 
@@ -69,19 +71,23 @@ To use `cprint` we are going to pull in `lein-cprint` version `1.2.0`.
 You can get the dependency name and version from mvnrepository or
 clojars.
 
-    ; Here is how to pull in the dependency 
-    (deps '[[lein-cprint "1.2.0"]])
+```clojure
+; Here is how to pull in the dependency 
+(deps '[[lein-cprint "1.2.0"]])
+```
 
 To use a function in the dependency we can either use `use` or
 `requires`. This will pull it into our current namespace.
 
-    ; `use` imports cprint directly into our namespace
-    (use 'leiningen.cprint)
-    (cprint (range 10))
+```clojure
+; `use` imports cprint directly into our namespace
+(use 'leiningen.cprint)
+(cprint (range 10))
 
-    ; `require` imports cprint as cp/cprint in our namespace
-    (require '[leiningen.cprint :as cp])
-    (cp/cprint (range 10))
+; `require` imports cprint as cp/cprint in our namespace
+(require '[leiningen.cprint :as cp])
+(cp/cprint (range 10))
+```
 
 ## REPL History
 
@@ -101,7 +107,9 @@ it into an elegant script defining functions.
 Next time you start a session you want to load the script file you
 created. Here is how to load a script file into the REPL. 
 
-    (load-file "myscript.clj")
+```clojure
+(load-file "myscript.clj")
+```
 
 This should give you a good starting point in how to use the REPL to
 interactively develop Clojure programs without getting bogged down in
