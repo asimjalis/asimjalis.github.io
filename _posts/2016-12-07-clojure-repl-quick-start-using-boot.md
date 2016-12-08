@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Clojure: REPL Quick Start Using Boot"
+title:  "How To Use Clojure For Scripting"
 date:   2016-12-07
 ---
 
