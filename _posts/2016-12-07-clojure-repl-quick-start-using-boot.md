@@ -132,3 +132,20 @@ Using the REPL you inspect and debug errors as they happen. You can
 dynamically redefine functions. And most importantly you can retain
 the playful REPL mindset in production.
 
+## Clojure Script Files
+
+Can I run my Clojure scripts like I do with my Python, Ruby, Perl, and
+Bash scripts?
+
+Yes you can. You can run your scripts directly using this shebang line 
+`#!/usr/bin/env boot` on top of your script file.
+
+Save this into `hello.clj` and try it out.
+
+```clojure
+#!/usr/bin/env boot
+(println "Hello world!")
+```
+
+This turns Clojure into a scripting language much like Python, Ruby,
+Perl, or Bash.
