@@ -33,7 +33,9 @@ Start boot repl.
 
 Test the REPL.
 
-    (println "Hello, world!!")
+```clojure
+(println "Hello, world!!")
+```
 
 At this point the REPL should work. You can play with all the
 functions that ship with Clojure.
