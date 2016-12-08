@@ -66,7 +66,7 @@ function.
 
 To use `cprint` we are going to pull in `lein-cprint` version `1.2.0`.
 You can get the dependency name and version from mvnrepository or
-clojars.
+clojars. 
 
 ```clojure
 ; Here is how to pull in the dependency 
@@ -144,3 +144,4 @@ Save this into `hello.clj` and try it out.
 
 This turns Clojure into a scripting language much like Python, Ruby,
 Perl, or Bash.
+
