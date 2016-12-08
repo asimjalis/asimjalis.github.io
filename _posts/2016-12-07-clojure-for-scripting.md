@@ -143,5 +143,6 @@ Save this into `hello.clj` and try it out.
 ```
 
 This turns Clojure into a scripting language much like Python, Ruby,
-Perl, or Bash.
+Perl, or Bash.  
+
 
