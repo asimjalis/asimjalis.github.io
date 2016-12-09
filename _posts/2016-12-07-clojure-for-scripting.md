@@ -150,8 +150,3 @@ Perl, or Bash.
 Share your thoughts on this post
 [here](https://news.ycombinator.com/item?id=13134104).
 
-
-
-
-
-
