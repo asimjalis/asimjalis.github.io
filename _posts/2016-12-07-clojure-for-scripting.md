@@ -145,6 +145,27 @@ Save this into `hello.clj` and try it out.
 This turns Clojure into a scripting language much like Python, Ruby,
 Perl, or Bash.  
 
+## Faster Startup Time
+
+If you want to speed up your startup time you can pass JVM flags into
+boot using `BOOT_JVM_OPTIONS`.
+
+Here is how I run boot.
+
+    export BOOT_JVM_OPTIONS='
+      -client
+      -XX:+TieredCompilation
+      -XX:TieredStopAtLevel=1
+      -Xmx2g
+      -XX:+UseConcMarkSweepGC
+      -XX:+CMSClassUnloadingEnabled
+      -Xverify:none'
+
+This brings the startup time on my MacBook down from 3.2 seconds to
+1.6 seconds.
+
+The last flag `-Xverify:none` comes with the following warning from [dev.clojure.org](http://dev.clojure.org/display/design/Improving+Clojure+Start+Time): *Suppresses the bytecode verifier (which speeds classloading). Enabling this option introduces a security risk from malicious bytecode, so should be carefully considered.*
+
 ## Comments
 
 Share your thoughts on this post
