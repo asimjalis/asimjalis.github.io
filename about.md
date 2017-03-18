@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-<img height="150" src="https://pbs.twimg.com/profile_images/735873117302587393/v5h5eAXl.jpg">
+<img height="150" src="{{ site.url }}/images/asimj_400x400.jpg">
 
 Senior Technical Trainer at Amazon Web Services.
 
