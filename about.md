@@ -9,3 +9,5 @@ permalink: /about/
 Senior Technical Trainer at Amazon Web Services.
 
 Interests: Clojure, Big Data, Cloud Computing.
+
+Note: Opinions and content does not represent AWS.
