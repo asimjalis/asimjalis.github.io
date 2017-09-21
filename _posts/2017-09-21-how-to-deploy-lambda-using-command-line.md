@@ -218,4 +218,3 @@ done
 aws logs delete-log-group \
   --log-group-name "$log_group_name"
 ```
-
