@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "AWS Lambda Quickstart"
+title:  "How To Deploy Lambda Using Command Line"
 date:   2017-09-21
 ---
 ```sh
