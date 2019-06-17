@@ -1,7 +1,8 @@
 ---
 layout: post
-title:  "How To Use Clojure For Scripting"
+title:  "Using Clojure With Boot For Scripting"
 date:   2016-12-07
+permalink: clojure-boot-scripting.html
 ---
 
 ## Getting to REPL
