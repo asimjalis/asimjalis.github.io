@@ -1,4 +1,5 @@
 ---
+exclude: true
 layout: page
 title: Test
 ---

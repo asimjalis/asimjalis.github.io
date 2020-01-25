@@ -9,11 +9,12 @@
 # Site settings
 title: Asim Jalis
 description: > # this means to ignore newlines until "baseurl:"
-  Clojure, Big Data, Cloud Computing
+  Lazy Person’s Guide to Productivity
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://asimjalis.github.io" # the base hostname & protocol for your site
-twitter_username: asimjalis
-github_username:  asimjalis
+email: "asimjalis@gmail.com"
+# twitter_username: asimjalis
+# github_username:  asimjalis
 published: true
 future: true
 # destination: ./_site/blog
@@ -21,3 +22,8 @@ permalink: /blog/:year/:month/:day/:title.html
 
 # Build settings
 markdown: kramdown
+
+# Plugins
+plugins:
+  - jekyll-redirect-from
+
