@@ -9,7 +9,7 @@
 # Site settings
 title: Asim Jalis
 description: > # this means to ignore newlines until "baseurl:"
-  Clojure for the win
+  Clojure For The Win
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://asimjalis.github.io" # the base hostname & protocol for your site
 email: "asimjalis@gmail.com"

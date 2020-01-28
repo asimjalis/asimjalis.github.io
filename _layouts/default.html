@@ -10,69 +10,6 @@
 <div class="page-content">
 <div class="wrapper">
 
-<!-- Email checkbox validation -->
-<script>
-  function email_form_check(form) {
-    if(!form.terms.checked) {
-      alert(
-        "Please click \"OK\" to agree to our privacy policy " + 
-        "or \"cancel\" if you don't want to subscribe.");
-      form.terms.focus();
-      return false;
-    } 
-    else { return true; }
-  }
-</script>
-
-<!-- AWeber Web Form Generator 3.0.1 -->
-<form method="post" name="email_form" class="af-form-wrapper" 
-  onsubmit="return email_form_check(this);"
-  accept-charset="UTF-8" 
-  action="https://www.aweber.com/scripts/addlead.pl" >
-
-<div style="display: none;">
-<input type="hidden" name="meta_web_form_id" value="1128647919" />
-<input type="hidden" name="meta_split_id" value="" />
-<input type="hidden" name="listname" value="awlist5523525" />
-<input type="hidden" name="redirect" value="http://asimjalis.github.io.s3-website-us-west-2.amazonaws.com/thank-you.html" id="redirect_9e29223d28c90dc384efe34157c79fb2" />
-<input type="hidden" name="meta_adtracking" value="Simple Web Form" />
-<input type="hidden" name="meta_message" value="1" />
-<input type="hidden" name="meta_required" value="email" />
-<input type="hidden" name="meta_tooltip" value="" />
-</div>
-
-<div id="af-form-1128647919" class="af-form"><div id="af-body-1128647919" 
-    class="af-body af-standards">
-
-<div style='text-align:center'>
-<fieldset>
-<legend>TYPE YOUR PRIMARY EMAIL HERE</legend>
-<input 
-  placeholder="Enter Primary Email" 
-  class="text" id="awf_field-105187900" type="text" name="email" value="" 
-  tabindex="500" 
-  onfocus=" if (this.value == '') { this.value=''; }" 
-  onblur="  if (this.value == '') { this.value='';} " />
-
-<input name="submit" class="submit" type="submit" value="Submit" tabindex="501" />
-<br>
-<input type="checkbox" name="terms">
-<small>I agree that when I sign up above, 
-  I will be added to a marketing mailing list where 
-  I will receive DAILY lazy productivity tips and promotional offers 
-  from Asim Jalis.</small><br>
-<!-- &ldquo;Your Email Addiction Fix&rdquo; -->
-</fieldset>
-</div>
-
-<div style="display: none;"><img src="https://forms.aweber.com/form/displays.htm?id=jIxMHGws7JyMnA==" alt="" /></div>
-</div></div>
-</form>
-
-<!-- /AWeber Web Form Generator 3.0.1 -->
-
-<br>
-
 <!-- Content -->
 {{ content }}
 </div>
